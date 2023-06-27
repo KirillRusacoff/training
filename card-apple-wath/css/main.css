@@ -1,0 +1,79 @@
+@import "./reset.css";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+body {
+    padding-top: 60px;
+    padding-left: 60px;
+
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.2;
+}
+
+.card-wrapper {
+    width: 420px;
+    padding: 20px 40px 50px;
+
+    border: 1px solid #DBB9B9;
+
+    text-align: center;
+}
+
+.card-img {
+    margin-bottom: 30px;
+}
+
+.card-title {
+    margin-bottom: 30px;
+
+    font-size: 32px;
+    font-weight: 700;
+    color: #CD2626;
+}
+
+.card-text {
+    margin-bottom: 30px;
+    padding: 0 5px;
+
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.card-text p+p {
+    margin-top: 1em;
+}
+
+.card-text a {
+    color: #BD3030;
+    text-decoration: underline;
+}
+
+.card-price {
+    margin-bottom: 30px;
+
+    font-size: 26px;
+}
+
+.card-price span {
+    font-weight: 700;
+}
+
+.card-btn {
+    padding: 16px 42px 17px;
+
+    background-color: #CD2626;
+    border-radius: 8px;
+
+    font-size: 22px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.card-btn:hover, .card-btn:focus {
+    background-color: #E41919;
+}
+
+.card-btn:active {
+    background-color: #8E1010;
+
+    color: #F1C9C9;
+}
