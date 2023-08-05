@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Описание страницы">
+    <meta name="keywords" content="Ключевые слова, фразы">
+    <title>Контакты - агентство Форест Тревел</title>
+    <link rel="stylesheet" href="./css/main.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="./img/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="./img/favicon/site.webmanifest">
+    <link rel="mask-icon" href="./img/favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="shortcut icon" href="./img/favicon/favicon.ico">
+    
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="msapplication-config" content="./img/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+</head>
+<body>
+
+    <nav class="hidden-menu">
+        <div class="hidden-menu__block">
+            <ul class="hidden-menu__list">
+                <li class="header-nav__item">
+                    <a href="index.html" class="header-nav__link">Главная</a>
+                </li>
+                <li class="header-nav__item">
+                    <a href="./tours.html" class="header-nav__link">Туры и направления</a>
+                </li>
+                <li class="header-nav__item">
+                    <a href="#!" class="header-nav__link">О компании</a>
+                </li>
+                <li class="header-nav__item">
+                    <a href="#!" class="header-nav__link">Галерея</a>
+                </li>
+                <li class="header-nav__item">
+                    <a href="./contacts.html" class="header-nav__link">Контакты</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    
+    <header class="header-inner">
+        <div class="header-top">
+            <div class="logo header-logo">ФорестТревел</div>
+            <nav class="header-nav">
+                <ul class="header-nav__list">
+                    <li class="header-nav__item">
+                        <a href="index.html" class="header-nav__link">Главная</a>
+                    </li>
+                    <li class="header-nav__item">
+                        <a href="./tours.html" class="header-nav__link">Туры и направления</a>
+                    </li>
+                    <li class="header-nav__item">
+                        <a href="#!" class="header-nav__link">О компании</a>
+                    </li>
+                    <li class="header-nav__item">
+                        <a href="#!" class="header-nav__link">Галерея</a>
+                    </li>
+                    <li class="header-nav__item">
+                        <a href="./contacts.html" class="header-nav__link">Контакты</a>
+                    </li>
+                </ul>
+                <button class="header-nav-menu-btn">
+                    <span class="nav-menu-btn"></span>
+                </button>
+            </nav>
+        </div>
+    </header>
+
+    <main class="inner-page inner-page-contacts">
+        <div class="container">
+            <div class="inner-page-contacts-header">
+                <h1 class="header-2 header-contacts">Контактная информация</h1>
+            </div>
+            <div class="inner-page-contacts-row">
+                <div class="contacts-row-col">
+                    <div class="col-info">
+                        <h2 class="col-info-title">Телефон и адрес</h2>
+                        <ul class="col-info-list">
+                            <li class="col-info-list-item tel-icon">
+                                <a href="tel:+79055555555">+7(905)555-55-55</a>
+                            </li>
+                            <li class="col-info-list-item mail-icon">
+                                <a href="mailto:info@foresttravel.com">info@foresttravel.com</a>
+                            </li>
+                            <li class="col-info-list-item address-icon">
+                                г. Москва, Рязанский проспект 54, офис 112.
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-info">
+                        <h2 class="col-info-title col-info-title-card">Карта</h2>
+                        <div class="col-info-card">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2247.4381577791423!2d37.793264541373475!3d55.71613724742785!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x414ab59b3be61f9b%3A0x8e6799da30ecf98a!2z0KDRj9C30LDQvdGB0LrQuNC5INC_0YAuLCA1NCwg0JzQvtGB0LrQstCwLCAxMDkzNzc!5e0!3m2!1sru!2sru!4v1687163177925!5m2!1sru!2sru" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                    </div>
+                </div>
+                <form  class="form">
+                    <h2 class="form-title">Заявка на подбор тура</h2>
+                    <fieldset class="form-group">
+                        <legend class="form-group-title">Личные данные</legend>
+                        <div class="form-group-info">
+                            <div class="form-group-row">
+                                <input class="form-group-input" type="text" placeholder="Введите имя" required>
+                            </div>   
+                            <div class="form-group-row"> 
+                                <input class="form-group-input" type="tel" placeholder="Телефон" required>
+                                <input class="form-group-input" type="email" placeholder="Email" required>
+                            </div>
+                        </div>
+                    </fieldset>
+                    <fieldset class="form-group">
+                        <legend class="form-group-title">Количество человек для тура</legend>
+                        <label class="radio-row">
+                            <input type="radio" name="num-people" class="real-radio">
+                            <span class="custom-radio"></span>
+                            2 - 4 человека
+                        </label>
+                        <label class="radio-row">
+                            <input type="radio" name="num-people" class="real-radio">
+                            <span class="custom-radio"></span>
+                            5 - 10 человек
+                        </label>
+                        <label class="radio-row">
+                            <input type="radio" name="num-people" class="real-radio">
+                            <span class="custom-radio"></span>
+                            11 человек и более
+                        </label>
+                    </fieldset>
+                    <fieldset class="form-group">
+                        <legend class="form-group-title">Какие направления вам интересны</legend>
+                        <label class="chech-row">
+                            <input type="checkbox" class="real-check">
+                            <span class="custom-check"></span>
+                            Трекинг туры, походы по горам и пересеченной местности.
+                        </label>
+                        <label class="chech-row">
+                            <input type="checkbox" class="real-check">
+                            <span class="custom-check"></span>
+                            Восхождения на вершины.
+                        </label>
+                        <label class="chech-row">
+                            <input type="checkbox" class="real-check">
+                            <span class="custom-check"></span>
+                            Экзотические джунгли, вулканы.
+                        </label>
+                        <label class="chech-row">
+                            <input type="checkbox" class="real-check">
+                            <span class="custom-check"></span>
+                            Комбинированные: море, горы, города, лес.
+                        </label>
+                    </fieldset>
+                    <button class="button">Отправить заявку</button>
+                </form>
+            </div>
+            
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-row">
+                <div class="footer-copyright">
+                    <div class="footer-logo">
+                        <div class="logo">ФорестТревел</div>
+                    </div>
+                    
+                    <p>
+                        При поддержке Управления по туризму Российской Федерации. ФорестТревел. Все права защищены. Copyright © 2021
+                    </p>
+                </div>
+                <div class="footer-widgets-wrapper">
+                    <div class="footer-widget footer-widget-info">
+                        <h3 class="footer-widget-title">Информация</h3>
+                        <ul class="footer-widget-list">
+                            <li>
+                                <a href="index.html">Главная</a>
+                            </li>
+                            <li>
+                                <a href="#!">О компании</a>
+                            </li>
+                            <li>
+                                <a href="#!">Галерея</a>
+                            </li>
+                            <li>
+                                <a href="#!">Блог</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer-widget footer-widget-services">
+                        <h3 class="footer-widget-title">Услуги</h3>
+                        <ul class="footer-widget-list">
+                            <li>
+                                <a href="#!">Бесплатные туры</a>
+                            </li>
+                            <li>
+                                <a href="#!">Невероятные приключения</a>
+                            </li>
+                            <li>
+                                <a href="#!">Экстримальный отдых</a>
+                            </li>
+                            <li>
+                                <a href="#!">Экзотические джунгли</a>
+                            </li>
+                            <li>
+                                <a href="./article.html">Трекинг походы</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer-widget footer-widget-contacts">
+                        <h3 class="footer-widget-title">Контакты</h3>
+                        <ul class="footer-widget-list">
+                            <li>
+                                +7 (905) 555-55-55
+                            </li>
+                            <li>
+                                info@foresttravel.com
+                            </li>
+                            <li>
+                                г. Москва, Рязанский проспект 54, офис 112.
+                            </li>                       
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>

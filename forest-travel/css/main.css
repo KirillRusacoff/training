@@ -1,0 +1,2402 @@
+@charset "UTF-8";
+/* line 1, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/base/_base.scss */
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+/* line 7, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/base/_base.scss */
+html, body {
+  max-width: 1600px;
+  height: 100%;
+  margin: 0 auto;
+  scroll-behavior: smooth;
+}
+
+/* line 15, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/base/_base.scss */
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-family: 'PT Sans', sans-serif;
+}
+
+/* line 22, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/base/_base.scss */
+body > * {
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+}
+
+/* line 26, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/base/_base.scss */
+body, h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+}
+
+/* line 30, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/base/_base.scss */
+footer {
+  margin-top: auto;
+}
+
+/* line 34, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/base/_base.scss */
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+/* line 41, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/base/_base.scss */
+ul, li {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+/* line 47, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/base/_base.scss */
+a {
+  text-decoration: none;
+  color: inherit;
+  -webkit-transition: color .2s ease-in;
+  transition: color .2s ease-in;
+}
+
+/* line 52, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/base/_base.scss */
+a:hover, a:focus {
+  color: #ffa600;
+}
+
+/* line 56, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/base/_base.scss */
+a:active {
+  color: #753232;
+}
+
+/* line 61, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/base/_base.scss */
+input {
+  font-family: 'PT Sans', sans-serif;
+}
+
+/* line 65, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/base/_base.scss */
+label {
+  cursor: pointer;
+}
+
+/* line 69, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/base/_base.scss */
+button {
+  cursor: pointer;
+}
+
+/* line 73, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/base/_base.scss */
+fieldset, legend {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+/* line 79, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/base/_base.scss */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+  /* Tablet */
+  /* Mobile */
+}
+
+@media (max-width: 1199px) {
+  /* line 79, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/base/_base.scss */
+  .container {
+    width: 900px;
+  }
+}
+
+@media (max-width: 899px) {
+  /* line 79, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/base/_base.scss */
+  .container {
+    width: 100%;
+  }
+}
+
+/* line 95, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/base/_base.scss */
+.inner-page {
+  padding: 60px 0 98px;
+  background-color: #F2F8F6;
+}
+
+/* line 101, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/base/_base.scss */
+.header-2 {
+  font-size: 54px;
+  line-height: 1.3;
+  color: #31405B;
+}
+
+/* line 1, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/blocks/_button.scss */
+.button {
+  display: inline-block;
+  padding: 12px 40px 12px 41px;
+  background-color: #0AC883;
+  -webkit-box-shadow: 0px 8px 20px rgba(24, 219, 148, 0.35);
+          box-shadow: 0px 8px 20px rgba(24, 219, 148, 0.35);
+  border-radius: 50px;
+  border: none;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1.3;
+  color: #fff;
+  -webkit-transition: all .2s ease-in;
+  transition: all .2s ease-in;
+  /* Tablet */
+  /* Mobile */
+}
+
+/* line 17, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/blocks/_button.scss */
+.button:hover, .button:focus {
+  background-color: #518d77;
+  color: #fff;
+}
+
+/* line 23, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/blocks/_button.scss */
+.button:active {
+  background-color: #4a5551;
+}
+
+@media (max-width: 1199px) {
+  /* line 1, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/blocks/_button.scss */
+  .button {
+    padding-left: 40.5px;
+    padding-right: 40.5px;
+  }
+}
+
+@media (max-width: 899px) {
+  /* line 1, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/blocks/_button.scss */
+  .button {
+    padding: 11px 30px 12px 30px;
+    font-size: 18px;
+  }
+}
+
+/* line 1, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/blocks/_logo.scss */
+.logo {
+  font-family: 'Lobster', cursive;
+  font-size: 40px;
+}
+
+/* line 1, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/sections/_header.scss */
+.header {
+  position: relative;
+  height: 800px;
+  padding-top: 50px;
+  background-color: #265847;
+  background-image: url(./../img/header-img/header-bg.jpg);
+  background-position: center;
+  background-size: cover;
+  line-height: 1.2;
+  color: #fff;
+}
+
+/* line 16, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/sections/_header.scss */
+.header-inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100px;
+  background-color: #265847;
+  background-image: url(./../img/header-img/header-small-bg.jpg);
+  background-position: center;
+  background-size: cover;
+  line-height: 1.2;
+  color: #fff;
+  /* Mobile */
+}
+
+@media (max-width: 899px) {
+  /* line 16, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/sections/_header.scss */
+  .header-inner {
+    height: 80px;
+  }
+}
+
+/* line 35, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/sections/_header.scss */
+.header-logo {
+  /* Mobile XS */
+}
+
+@media (max-width: 599px) {
+  /* line 35, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/sections/_header.scss */
+  .header-logo {
+    width: 176px;
+  }
+}
+
+/* line 42, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/sections/_header.scss */
+.header-inner .logo {
+  /* Mobile */
+}
+
+@media (max-width: 899px) {
+  /* line 42, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/sections/_header.scss */
+  .header-inner .logo {
+    font-size: 30px;
+  }
+}
+
+/* line 49, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/sections/_header.scss */
+.header-top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 1170px;
+  margin: 0 auto;
+  /* Tablet */
+}
+
+@media (max-width: 1199px) {
+  /* line 49, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/sections/_header.scss */
+  .header-top {
+    width: 100%;
+    padding: 0 15px;
+  }
+}
+
+/* line 64, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/sections/_header.scss */
+.header-nav__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  /* Tablet */
+}
+
+@media (max-width: 1199px) {
+  /* line 64, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/sections/_header.scss */
+  .header-nav__list {
+    display: none;
+  }
+}
+
+/* line 73, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/sections/_header.scss */
+.header-nav__item {
+  margin-right: 50px;
+  font-size: 22px;
+}
+
+/* line 78, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/sections/_header.scss */
+.header-nav__item:last-child {
+  margin-right: 0;
+}
+
+/* line 82, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/sections/_header.scss */
+.header-nav-menu-btn {
+  display: none;
+  border: none;
+  padding: 0;
+  background-color: transparent;
+  /* Tablet */
+}
+
+@media (max-width: 1199px) {
+  /* line 82, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/sections/_header.scss */
+  .header-nav-menu-btn {
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 30px;
+    height: 10px;
+  }
+}
+
+/* line 99, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/sections/_header.scss */
+.nav-menu-btn {
+  position: relative;
+  width: 30px;
+  height: 4px;
+  background-color: #fff;
+}
+
+/* line 107, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/sections/_header.scss */
+.nav-menu-btn::before {
+  content: '';
+  position: absolute;
+  top: -8px;
+  left: 0;
+  width: 30px;
+  height: 4px;
+  background-color: #fff;
+}
+
+/* line 119, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/sections/_header.scss */
+.nav-menu-btn::after {
+  content: '';
+  position: absolute;
+  top: 8px;
+  left: 0;
+  width: 30px;
+  height: 4px;
+  background-color: #fff;
+}
+
+/* line 132, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/sections/_header.scss */
+.header-nav-menu-btn.header-nav-menu-btn--active .nav-menu-btn {
+  position: fixed;
+  z-index: 3;
+  background-color: transparent;
+}
+
+/* line 137, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/sections/_header.scss */
+.header-nav-menu-btn.header-nav-menu-btn--active .nav-menu-btn::before, .header-nav-menu-btn.header-nav-menu-btn--active .nav-menu-btn::after {
+  top: 0;
+  -webkit-transition: top .2s linear, -webkit-transform .2s ease-in .2s;
+  transition: top .2s linear, -webkit-transform .2s ease-in .2s;
+  transition: top .2s linear, transform .2s ease-in .2s;
+  transition: top .2s linear, transform .2s ease-in .2s, -webkit-transform .2s ease-in .2s;
+}
+
+/* line 143, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/sections/_header.scss */
+.header-nav-menu-btn.header-nav-menu-btn--active .nav-menu-btn::before {
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+}
+
+/* line 147, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/sections/_header.scss */
+.header-nav-menu-btn.header-nav-menu-btn--active .nav-menu-btn::after {
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+
+/* line 152, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/sections/_header.scss */
+.hidden-menu {
+  position: fixed;
+  z-index: 3;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: none;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: rgba(70, 65, 95, 0.85);
+}
+
+/* line 168, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/sections/_header.scss */
+.hidden-menu.hidden-menu--active {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+/* line 172, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/sections/_header.scss */
+.hidden-menu__block {
+  width: 290px;
+  padding: 40px 20px;
+  background-color: #4b7550;
+  border: 3px solid #265847;
+}
+
+/* line 180, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/sections/_header.scss */
+.hidden-menu__list {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.3;
+  color: #fff;
+}
+
+/* line 186, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/sections/_header.scss */
+.hidden-menu__list .header-nav__item {
+  margin-bottom: 15px;
+}
+
+/* line 191, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/sections/_header.scss */
+.header-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  width: 1170px;
+  text-align: center;
+  /* Tablet */
+  /* Mobile */
+  /* Mobile XS */
+}
+
+@media (max-width: 1199px) {
+  /* line 191, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/sections/_header.scss */
+  .header-content {
+    width: 900px;
+    padding: 0 15px;
+  }
+}
+
+@media (max-width: 899px) {
+  /* line 191, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/sections/_header.scss */
+  .header-content {
+    top: 48%;
+    width: 100%;
+  }
+}
+
+@media (max-width: 599px) {
+  /* line 191, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/sections/_header.scss */
+  .header-content {
+    top: 49%;
+  }
+}
+
+/* line 220, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/sections/_header.scss */
+.header-title {
+  margin-bottom: 20px;
+  font-size: 60px;
+  /* Tablet */
+  /* Mobile */
+  /* Mobile XS */
+}
+
+@media (max-width: 1199px) {
+  /* line 220, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/sections/_header.scss */
+  .header-title {
+    font-size: 52px;
+  }
+}
+
+@media (max-width: 899px) {
+  /* line 220, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/sections/_header.scss */
+  .header-title {
+    font-size: 42px;
+    line-height: 1;
+  }
+}
+
+@media (max-width: 599px) {
+  /* line 220, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/sections/_header.scss */
+  .header-title {
+    margin-bottom: 10px;
+    font-size: 32px;
+  }
+}
+
+/* line 244, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/sections/_header.scss */
+.header-subtitle {
+  font-size: 24px;
+  /* Mobile */
+  /* Mobile XS */
+}
+
+@media (max-width: 899px) {
+  /* line 244, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/sections/_header.scss */
+  .header-subtitle {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 599px) {
+  /* line 244, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/sections/_header.scss */
+  .header-subtitle {
+    font-size: 18px;
+  }
+}
+
+/* line 258, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/sections/_header.scss */
+.header-scroll {
+  position: absolute;
+  display: inline-block;
+  padding-bottom: 34px;
+  bottom: 25px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  /* Tablet */
+}
+
+@media (max-width: 1199px) {
+  /* line 258, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/sections/_header.scss */
+  .header-scroll {
+    font-size: 0;
+  }
+}
+
+/* line 274, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/sections/_header.scss */
+.header-scroll::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  width: 24px;
+  height: 24px;
+  background-image: url("./../img/header-img/arrow-down.svg");
+}
+
+/* line 1, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/sections/_main.scss */
+.main {
+  padding: 120px 0;
+  /* Tablet */
+  /* Mobile */
+  /* Mobile XS */
+}
+
+@media (max-width: 1199px) {
+  /* line 1, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/sections/_main.scss */
+  .main {
+    padding: 80px 0 95px;
+  }
+}
+
+@media (max-width: 899px) {
+  /* line 1, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/sections/_main.scss */
+  .main {
+    padding: 60px 0;
+  }
+}
+
+@media (max-width: 599px) {
+  /* line 1, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/sections/_main.scss */
+  .main {
+    padding: 40px 0;
+  }
+}
+
+/* line 20, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/sections/_main.scss */
+.inner-page {
+  padding: 60px 0 98px;
+  background-color: #F2F8F6;
+  /* Tablet */
+  /* Mobile */
+}
+
+@media (max-width: 1199px) {
+  /* line 20, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/sections/_main.scss */
+  .inner-page {
+    padding: 60px 0;
+  }
+}
+
+@media (max-width: 899px) {
+  /* line 20, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/sections/_main.scss */
+  .inner-page {
+    padding: 40px 0;
+  }
+}
+
+/* line 36, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/sections/_main.scss */
+.inner-page-article, .inner-page-contacts {
+  /* Tablet */
+  /* Mobile */
+  /* Mobile XS */
+}
+
+@media (max-width: 1199px) {
+  /* line 36, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/sections/_main.scss */
+  .inner-page-article, .inner-page-contacts {
+    padding-top: 40px;
+  }
+}
+
+@media (max-width: 899px) {
+  /* line 36, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/sections/_main.scss */
+  .inner-page-article, .inner-page-contacts {
+    padding: 20px 0 60px;
+  }
+}
+
+@media (max-width: 599px) {
+  /* line 36, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/sections/_main.scss */
+  .inner-page-article, .inner-page-contacts {
+    padding-bottom: 40px;
+  }
+}
+
+/* line 53, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/sections/_main.scss */
+.inner-page-header {
+  margin-bottom: 60px;
+  text-align: center;
+  /* Tablet */
+  /* Mobile XS */
+}
+
+@media (max-width: 1199px) {
+  /* line 53, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/sections/_main.scss */
+  .inner-page-header {
+    margin-bottom: 40px;
+  }
+}
+
+@media (max-width: 599px) {
+  /* line 53, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/sections/_main.scss */
+  .inner-page-header {
+    margin-bottom: 30px;
+  }
+}
+
+/* line 69, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/sections/_main.scss */
+.inner-page-header .header-2 {
+  /* Tablet */
+  /* Mobile XS */
+}
+
+@media (max-width: 1199px) {
+  /* line 69, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/sections/_main.scss */
+  .inner-page-header .header-2 {
+    line-height: 1.3;
+  }
+}
+
+@media (max-width: 599px) {
+  /* line 69, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/sections/_main.scss */
+  .inner-page-header .header-2 {
+    font-size: 28px;
+    line-height: 1;
+  }
+}
+
+/* line 82, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/sections/_main.scss */
+.main-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 120px;
+  /* Tablet */
+  /* Mobile */
+  /* Mobile XS */
+}
+
+@media (max-width: 1199px) {
+  /* line 82, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/sections/_main.scss */
+  .main-row {
+    margin-bottom: 80px;
+  }
+}
+
+@media (max-width: 899px) {
+  /* line 82, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/sections/_main.scss */
+  .main-row {
+    margin-bottom: 60px;
+  }
+}
+
+@media (max-width: 599px) {
+  /* line 82, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/sections/_main.scss */
+  .main-row {
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: reverse !important;
+        -ms-flex-direction: column-reverse !important;
+            flex-direction: column-reverse !important;
+    margin-bottom: 40px;
+  }
+}
+
+/* line 106, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/sections/_main.scss */
+.main-row:first-child {
+  /* Mobile */
+}
+
+@media (max-width: 899px) {
+  /* line 106, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/sections/_main.scss */
+  .main-row:first-child {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse;
+  }
+}
+
+/* line 113, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/sections/_main.scss */
+.main-row:last-child {
+  margin-bottom: 0;
+}
+
+/* line 117, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/sections/_main.scss */
+.row-revers {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+}
+
+/* line 121, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/sections/_main.scss */
+.main-row__content {
+  width: 470px;
+  /* Tablet */
+  /* Mobile */
+}
+
+@media (max-width: 1199px) {
+  /* line 121, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/sections/_main.scss */
+  .main-row__content {
+    width: 420px;
+  }
+}
+
+@media (max-width: 899px) {
+  /* line 121, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/sections/_main.scss */
+  .main-row__content {
+    width: auto;
+  }
+}
+
+/* line 135, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/sections/_main.scss */
+.main-row-title {
+  margin-bottom: 20px;
+}
+
+/* line 139, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/sections/_main.scss */
+.header-2 {
+  font-size: 54px;
+  line-height: 1.3;
+  color: #31405B;
+  /* Tablet */
+  /* Mobile */
+  /* Mobile XS */
+}
+
+@media (max-width: 1199px) {
+  /* line 139, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/sections/_main.scss */
+  .header-2 {
+    font-size: 50px;
+    line-height: 1;
+  }
+}
+
+@media (max-width: 899px) {
+  /* line 139, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/sections/_main.scss */
+  .header-2 {
+    font-size: 42px;
+  }
+}
+
+@media (max-width: 599px) {
+  /* line 139, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/sections/_main.scss */
+  .header-2 {
+    font-size: 34px;
+  }
+}
+
+/* line 161, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/sections/_main.scss */
+.main-row__text {
+  margin-bottom: 40px;
+  font-size: 20px;
+  line-height: 1.6;
+  color: #31405B;
+  /* Tablet */
+  /* Mobile */
+  /* Mobile XS */
+}
+
+@media (max-width: 1199px) {
+  /* line 161, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/sections/_main.scss */
+  .main-row__text {
+    margin-bottom: 20px;
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 899px) {
+  /* line 161, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/sections/_main.scss */
+  .main-row__text {
+    min-height: 208px;
+    font-size: 16px;
+    line-height: 1.63;
+  }
+}
+
+@media (max-width: 599px) {
+  /* line 161, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/sections/_main.scss */
+  .main-row__text {
+    min-height: auto;
+  }
+}
+
+/* line 189, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/sections/_main.scss */
+.main-row__text--down {
+  /* Mobile XS */
+}
+
+@media (max-width: 599px) {
+  /* line 189, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/sections/_main.scss */
+  .main-row__text--down {
+    margin-bottom: -4px;
+  }
+}
+
+/* line 196, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/sections/_main.scss */
+.main-row__text span {
+  font-weight: 700;
+}
+
+/* line 201, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/sections/_main.scss */
+.span-transfer {
+  /* Mobile */
+}
+
+@media (max-width: 899px) {
+  /* line 201, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/sections/_main.scss */
+  .span-transfer {
+    display: block;
+  }
+}
+
+/* line 208, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/sections/_main.scss */
+.main-row__text a {
+  color: #138ECE;
+  text-decoration: underline;
+}
+
+/* line 213, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/sections/_main.scss */
+.main-row__img {
+  width: 570px;
+  /* Tablet */
+  /* Mobile */
+  /* Mobile XS */
+}
+
+@media (max-width: 1199px) {
+  /* line 213, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/sections/_main.scss */
+  .main-row__img {
+    width: 420px;
+    height: 362px;
+  }
+}
+
+@media (max-width: 899px) {
+  /* line 213, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/sections/_main.scss */
+  .main-row__img {
+    width: 170px;
+    height: 393px;
+    margin-right: 30px;
+    -ms-flex-negative: 0;
+        flex-shrink: 0;
+  }
+  /* line 231, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/sections/_main.scss */
+  .main-row__img img {
+    height: 393px;
+  }
+}
+
+@media (max-width: 599px) {
+  /* line 213, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/sections/_main.scss */
+  .main-row__img {
+    width: auto;
+    height: 150px;
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+  /* line 244, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/sections/_main.scss */
+  .main-row__img img {
+    height: 150px;
+  }
+}
+
+/* cards */
+/* line 252, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/sections/_main.scss */
+.cards-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-column-gap: 30px;
+     -moz-column-gap: 30px;
+          column-gap: 30px;
+  margin-bottom: 30px;
+  /* Mobile */
+  /* Mobile XS */
+}
+
+@media (max-width: 899px) {
+  /* line 252, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/sections/_main.scss */
+  .cards-row {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    row-gap: 30px;
+  }
+}
+
+@media (max-width: 599px) {
+  /* line 252, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/sections/_main.scss */
+  .cards-row {
+    row-gap: 20px;
+    margin-bottom: 20px;
+  }
+}
+
+/* line 273, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/sections/_main.scss */
+.cards-row:last-child {
+  margin-bottom: 0;
+}
+
+/* line 277, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/sections/_main.scss */
+.card-link-wrapper {
+  width: 570px;
+  -webkit-transition: opacity 0.2s ease-in;
+  transition: opacity 0.2s ease-in;
+  /* Mobile */
+  /* Mobile XS */
+}
+
+@media (max-width: 899px) {
+  /* line 277, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/sections/_main.scss */
+  .card-link-wrapper {
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 599px) {
+  /* line 277, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/sections/_main.scss */
+  .card-link-wrapper {
+    width: 100%;
+  }
+}
+
+/* line 293, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/sections/_main.scss */
+.card-link-wrapper:hover {
+  opacity: 0.9;
+}
+
+/* line 297, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/sections/_main.scss */
+.card-title-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 80px;
+  padding: 0 30px;
+  background-color: #A6A6A6;
+  overflow: hidden;
+  white-space: nowrap;
+  /* Tablet */
+  /* Mobile */
+  /* Mobile XS */
+}
+
+@media (max-width: 1199px) {
+  /* line 297, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/sections/_main.scss */
+  .card-title-wrapper {
+    height: 60px;
+    padding: 0 20px;
+  }
+}
+
+@media (max-width: 899px) {
+  /* line 297, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/sections/_main.scss */
+  .card-title-wrapper {
+    padding: 0 25px;
+  }
+}
+
+@media (max-width: 599px) {
+  /* line 297, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/sections/_main.scss */
+  .card-title-wrapper {
+    height: 50px;
+    padding: 0 20px 0 15px;
+  }
+}
+
+/* line 327, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/sections/_main.scss */
+.extreme-color {
+  background-color: #C1B19B;
+}
+
+/* line 331, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/sections/_main.scss */
+.exotic-color {
+  background-color: #27695E;
+}
+
+/* line 335, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/sections/_main.scss */
+.adventures-color {
+  background-color: #66B0BE;
+}
+
+/* line 339, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/sections/_main.scss */
+.tracking-color {
+  background-color: #876F56;
+}
+
+/* line 343, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/sections/_main.scss */
+.card-title {
+  font-size: 28px;
+  line-height: 1.3;
+  color: #fff;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  /* Tablet */
+  /* Mobile XS */
+}
+
+@media (max-width: 1199px) {
+  /* line 343, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/sections/_main.scss */
+  .card-title {
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 599px) {
+  /* line 343, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/sections/_main.scss */
+  .card-title {
+    font-size: 20px;
+  }
+}
+
+/* line 362, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/sections/_main.scss */
+.cards-column {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  row-gap: 30px;
+  /* Mobile XS */
+}
+
+@media (max-width: 599px) {
+  /* line 362, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/sections/_main.scss */
+  .cards-column {
+    row-gap: 20px;
+  }
+}
+
+/* line 373, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/sections/_main.scss */
+.cards-column .card-link-wrapper {
+  width: 670px;
+  /* Tablet */
+  /* Mobile */
+  /* Mobile XS */
+}
+
+@media (max-width: 1199px) {
+  /* line 373, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/sections/_main.scss */
+  .cards-column .card-link-wrapper {
+    width: 495px;
+  }
+}
+
+@media (max-width: 899px) {
+  /* line 373, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/sections/_main.scss */
+  .cards-column .card-link-wrapper {
+    width: 570px;
+  }
+}
+
+@media (max-width: 599px) {
+  /* line 373, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/sections/_main.scss */
+  .cards-column .card-link-wrapper {
+    width: 100%;
+  }
+}
+
+/* line 392, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/sections/_main.scss */
+.last-card {
+  width: 470px;
+  /* Tablet */
+  /* Mobile */
+  /* Mobile XS */
+}
+
+@media (max-width: 1199px) {
+  /* line 392, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/sections/_main.scss */
+  .last-card {
+    width: 345px;
+  }
+}
+
+@media (max-width: 899px) {
+  /* line 392, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/sections/_main.scss */
+  .last-card {
+    width: 570px;
+  }
+}
+
+@media (max-width: 599px) {
+  /* line 392, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/sections/_main.scss */
+  .last-card {
+    width: 100%;
+  }
+}
+
+/* article page */
+/* line 413, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/sections/_main.scss */
+.article-page-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-column-gap: 130px;
+     -moz-column-gap: 130px;
+          column-gap: 130px;
+  /* Tablet */
+  /* Mobile */
+  /* Mobile XS */
+}
+
+@media (max-width: 1199px) {
+  /* line 413, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/sections/_main.scss */
+  .article-page-row {
+    -webkit-column-gap: 30px;
+       -moz-column-gap: 30px;
+            column-gap: 30px;
+  }
+}
+
+@media (max-width: 899px) {
+  /* line 413, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/sections/_main.scss */
+  .article-page-row {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    row-gap: 40px;
+  }
+}
+
+@media (max-width: 599px) {
+  /* line 413, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/sections/_main.scss */
+  .article-page-row {
+    row-gap: 0;
+  }
+}
+
+/* line 435, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/sections/_main.scss */
+.article-page-nav {
+  width: 270px;
+  padding-top: 10px;
+  /* для выравнивания блоков по одной линии */
+  /* Tablet */
+  /* Mobile */
+  /* Mobile XS */
+}
+
+@media (max-width: 1199px) {
+  /* line 435, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/sections/_main.scss */
+  .article-page-nav {
+    padding-right: 5px;
+  }
+}
+
+@media (max-width: 899px) {
+  /* line 435, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/sections/_main.scss */
+  .article-page-nav {
+    width: 570px;
+    padding-top: 0;
+    padding-right: 0;
+  }
+}
+
+@media (max-width: 599px) {
+  /* line 435, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/sections/_main.scss */
+  .article-page-nav {
+    width: 100%;
+    padding-right: 51px;
+  }
+}
+
+/* line 461, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/sections/_main.scss */
+.article-page-nav-title {
+  margin-bottom: 34px;
+  font-size: 28px;
+  line-height: 1.3;
+  color: #31405B;
+  /* Mobile */
+  /* Mobile XS */
+}
+
+@media (max-width: 899px) {
+  /* line 461, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/sections/_main.scss */
+  .article-page-nav-title {
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 599px) {
+  /* line 461, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/sections/_main.scss */
+  .article-page-nav-title {
+    margin-bottom: 15px;
+    font-size: 22px;
+  }
+}
+
+/* line 481, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/sections/_main.scss */
+.article-page-nav-list {
+  border-top: 1px solid #D6D9D8;
+  font-size: 20px;
+  line-height: 1.3;
+  color: #138ECE;
+  /* Tablet */
+  /* Mobile XS */
+}
+
+@media (max-width: 1199px) {
+  /* line 481, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/sections/_main.scss */
+  .article-page-nav-list {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 599px) {
+  /* line 481, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/sections/_main.scss */
+  .article-page-nav-list {
+    font-size: 16px;
+  }
+}
+
+/* line 498, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/sections/_main.scss */
+.article-page-nav-list a {
+  display: block;
+  padding: 14px 0;
+  border-bottom: 1px solid #D6D9D8;
+  /* Mobile XS */
+}
+
+@media (max-width: 599px) {
+  /* line 498, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/sections/_main.scss */
+  .article-page-nav-list a {
+    padding: 4px 0 9px;
+  }
+}
+
+/* line 511, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/sections/_main.scss */
+.active {
+  font-weight: 700;
+  color: #E04E4E !important;
+}
+
+/* line 516, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/sections/_main.scss */
+.article-page-article {
+  width: 771px;
+  color: #31405B;
+  /* Tablet */
+  /* Mobile XS */
+}
+
+@media (max-width: 1199px) {
+  /* line 516, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/sections/_main.scss */
+  .article-page-article {
+    width: 570px;
+  }
+}
+
+@media (max-width: 599px) {
+  /* line 516, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/sections/_main.scss */
+  .article-page-article {
+    width: 100%;
+  }
+}
+
+/* line 532, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/sections/_main.scss */
+.article-page-article h1 {
+  margin-bottom: 40px;
+  font-size: 54px;
+  line-height: 1.3;
+  /* Tablet */
+  /* Mobile */
+  /* Mobile XS */
+}
+
+@media (max-width: 1199px) {
+  /* line 532, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/sections/_main.scss */
+  .article-page-article h1 {
+    margin-bottom: 20px;
+    font-size: 50px;
+  }
+}
+
+@media (max-width: 899px) {
+  /* line 532, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/sections/_main.scss */
+  .article-page-article h1 {
+    font-size: 42px;
+  }
+}
+
+@media (max-width: 599px) {
+  /* line 532, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/sections/_main.scss */
+  .article-page-article h1 {
+    margin-bottom: 10px;
+    font-size: 28px;
+  }
+}
+
+/* line 558, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/sections/_main.scss */
+.article-page-article p {
+  margin-bottom: 15px;
+  font-size: 20px;
+  line-height: 1.6;
+  /* Tablet */
+  /* Mobile */
+  /* Mobile XS */
+}
+
+@media (max-width: 1199px) {
+  /* line 558, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/sections/_main.scss */
+  .article-page-article p {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 899px) {
+  /* line 558, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/sections/_main.scss */
+  .article-page-article p {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 599px) {
+  /* line 558, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/sections/_main.scss */
+  .article-page-article p {
+    line-height: 1.623;
+  }
+}
+
+/* line 580, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/sections/_main.scss */
+.article-page-article p:last-child {
+  margin-bottom: 0;
+}
+
+/* line 584, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/sections/_main.scss */
+.article-page-article p span {
+  font-weight: 700;
+}
+
+/* line 588, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/sections/_main.scss */
+.article-page-article p a {
+  color: #138ECE;
+  text-decoration: underline;
+}
+
+/* line 593, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/sections/_main.scss */
+.article-page-article h2,
+.article-page-article h3,
+.article-page-article h4 {
+  margin-bottom: 15px;
+  line-height: 1.6;
+  /* Mobile XS */
+}
+
+@media (max-width: 599px) {
+  /* line 593, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/sections/_main.scss */
+  .article-page-article h2,
+  .article-page-article h3,
+  .article-page-article h4 {
+    line-height: 1;
+  }
+}
+
+/* line 606, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/sections/_main.scss */
+.article-page-article h2 {
+  font-size: 32px;
+  /* Tablet */
+  /* Mobile */
+  /* Mobile XS */
+}
+
+@media (max-width: 1199px) {
+  /* line 606, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/sections/_main.scss */
+  .article-page-article h2 {
+    padding-top: 5px;
+  }
+}
+
+@media (max-width: 899px) {
+  /* line 606, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/sections/_main.scss */
+  .article-page-article h2 {
+    padding-top: 10px;
+  }
+}
+
+@media (max-width: 599px) {
+  /* line 606, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/sections/_main.scss */
+  .article-page-article h2 {
+    padding-top: 0;
+  }
+}
+
+/* line 625, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/sections/_main.scss */
+.article-page-article h3 {
+  font-size: 26px;
+}
+
+/* line 629, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/sections/_main.scss */
+.article-page-article h4 {
+  font-size: 22px;
+  /* Mobile XS */
+}
+
+@media (max-width: 599px) {
+  /* line 629, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/sections/_main.scss */
+  .article-page-article h4 {
+    padding-right: 6px;
+    line-height: 1.6;
+  }
+}
+
+/* line 640, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/sections/_main.scss */
+.article-page-article img {
+  margin: 40px 0;
+  /* Tablet */
+  /* Mobile */
+}
+
+@media (max-width: 1199px) {
+  /* line 640, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/sections/_main.scss */
+  .article-page-article img {
+    margin: 30px 0;
+  }
+}
+
+@media (max-width: 899px) {
+  /* line 640, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/sections/_main.scss */
+  .article-page-article img {
+    margin: 20px 0;
+  }
+}
+
+/* contacts page */
+/* line 656, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/sections/_main.scss */
+.inner-page-contacts-header {
+  margin-bottom: 40px;
+  /* Mobile */
+}
+
+@media (max-width: 899px) {
+  /* line 656, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/sections/_main.scss */
+  .inner-page-contacts-header {
+    margin-bottom: 30px;
+  }
+}
+
+/* line 665, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/sections/_main.scss */
+.header-contacts {
+  line-height: 1.3;
+  /* Mobile XS */
+}
+
+@media (max-width: 599px) {
+  /* line 665, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/sections/_main.scss */
+  .header-contacts {
+    font-size: 28px;
+    line-height: 1;
+  }
+}
+
+/* line 675, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/sections/_main.scss */
+.inner-page-contacts-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  /* Tablet */
+}
+
+@media (max-width: 1199px) {
+  /* line 675, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/sections/_main.scss */
+  .inner-page-contacts-row {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: start;
+  }
+}
+
+/* line 687, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/sections/_main.scss */
+.contacts-row-col {
+  width: 470px;
+  /* Tablet */
+  /* Mobile */
+  /* Mobile XS */
+}
+
+@media (max-width: 1199px) {
+  /* line 687, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/sections/_main.scss */
+  .contacts-row-col {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-column-gap: 30px;
+       -moz-column-gap: 30px;
+            column-gap: 30px;
+    width: 100%;
+    margin-bottom: 40px;
+  }
+}
+
+@media (max-width: 899px) {
+  /* line 687, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/sections/_main.scss */
+  .contacts-row-col {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    row-gap: 40px;
+  }
+}
+
+@media (max-width: 599px) {
+  /* line 687, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/sections/_main.scss */
+  .contacts-row-col {
+    row-gap: 30px;
+    margin-bottom: 30px;
+  }
+}
+
+/* line 713, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/sections/_main.scss */
+.col-info {
+  margin-bottom: 40px;
+  color: #31405B;
+  /* Tablet */
+  /* Mobile */
+}
+
+@media (max-width: 1199px) {
+  /* line 713, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/sections/_main.scss */
+  .col-info {
+    width: 420px;
+    margin-bottom: 0;
+  }
+}
+
+@media (max-width: 899px) {
+  /* line 713, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/sections/_main.scss */
+  .col-info {
+    width: 100%;
+  }
+}
+
+/* line 731, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/sections/_main.scss */
+.col-info:last-child {
+  margin-bottom: 0;
+}
+
+/* line 735, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/sections/_main.scss */
+.col-info-title {
+  margin-bottom: 20px;
+  font-size: 28px;
+  line-height: 1.3;
+  /* Tablet */
+  /* Mobile XS */
+}
+
+@media (max-width: 1199px) {
+  /* line 735, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/sections/_main.scss */
+  .col-info-title {
+    margin-bottom: 25px;
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 599px) {
+  /* line 735, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/sections/_main.scss */
+  .col-info-title {
+    margin-bottom: 20px;
+    font-size: 20px;
+  }
+}
+
+/* line 756, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/sections/_main.scss */
+.col-info-title-card {
+  /* Tablet */
+}
+
+@media (max-width: 1199px) {
+  /* line 756, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/sections/_main.scss */
+  .col-info-title-card {
+    margin-bottom: 20px;
+  }
+}
+
+/* line 763, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/sections/_main.scss */
+.col-info-list {
+  font-size: 20px;
+  line-height: 1.6;
+  /* Tablet */
+  /* Mobile XS */
+}
+
+@media (max-width: 1199px) {
+  /* line 763, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/sections/_main.scss */
+  .col-info-list {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 599px) {
+  /* line 763, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/sections/_main.scss */
+  .col-info-list {
+    font-size: 16px;
+    line-height: 1.3;
+  }
+}
+
+/* line 779, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/sections/_main.scss */
+.col-info-list a {
+  color: #138ECE;
+}
+
+/* line 783, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/sections/_main.scss */
+.col-info-list a:hover {
+  text-decoration: underline;
+}
+
+/* line 787, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/sections/_main.scss */
+.col-info-list-item {
+  position: relative;
+  margin-bottom: 15px;
+  padding-left: 39px;
+  /* Mobile XS */
+}
+
+@media (max-width: 599px) {
+  /* line 787, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/sections/_main.scss */
+  .col-info-list-item {
+    margin-bottom: 20px;
+    padding-left: 33px;
+  }
+}
+
+/* line 800, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/sections/_main.scss */
+.col-info-list-item::before {
+  content: '';
+  position: absolute;
+  top: 5px;
+  left: 0;
+  width: 24px;
+  height: 24px;
+}
+
+/* line 810, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/sections/_main.scss */
+.col-info-list-item.tel-icon::before {
+  background-image: url(./../img/icons/telepone.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* line 816, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/sections/_main.scss */
+.col-info-list-item.mail-icon::before {
+  background-image: url(./../img/icons/mail.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* line 822, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/sections/_main.scss */
+.col-info-list-item.address-icon::before {
+  background-image: url(./../img/icons/map.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* line 828, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/sections/_main.scss */
+.col-info-list-item:last-child {
+  margin-bottom: 0;
+}
+
+/* line 832, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/sections/_main.scss */
+.col-info-card {
+  height: 310px;
+  /* Mobile XS */
+}
+
+@media (max-width: 599px) {
+  /* line 832, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/sections/_main.scss */
+  .col-info-card {
+    height: 157px;
+  }
+}
+
+/* line 841, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/sections/_main.scss */
+.form {
+  width: 630px;
+  padding: 40px;
+  background: #FFFFFF;
+  -webkit-box-shadow: 0px 10px 20px rgba(211, 211, 211, 0.25);
+          box-shadow: 0px 10px 20px rgba(211, 211, 211, 0.25);
+  line-height: 1.3;
+  color: #31405B;
+  /* Tablet */
+  /* Mobile */
+  /* Mobile XS */
+}
+
+@media (max-width: 1199px) {
+  /* line 841, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/sections/_main.scss */
+  .form {
+    width: 100%;
+    line-height: 1.27;
+  }
+}
+
+@media (max-width: 899px) {
+  /* line 841, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/sections/_main.scss */
+  .form {
+    padding: 30px;
+  }
+}
+
+@media (max-width: 599px) {
+  /* line 841, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/sections/_main.scss */
+  .form {
+    padding: 20px 15px;
+  }
+}
+
+/* line 869, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/sections/_main.scss */
+.form-title {
+  margin-bottom: 20px;
+  font-size: 28px;
+  /* Mobile XS */
+}
+
+@media (max-width: 599px) {
+  /* line 869, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/sections/_main.scss */
+  .form-title {
+    font-size: 24px;
+  }
+}
+
+/* line 880, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/sections/_main.scss */
+.form-group {
+  margin-bottom: 30px;
+  font-size: 18px;
+  /* Mobile XS */
+}
+
+@media (max-width: 599px) {
+  /* line 880, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/sections/_main.scss */
+  .form-group {
+    margin-bottom: 20px;
+    font-size: 16px;
+  }
+}
+
+/* line 893, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/sections/_main.scss */
+.form-group:last-of-type {
+  margin-bottom: 35px;
+  /* Mobile */
+  /* Mobile XS */
+}
+
+@media (max-width: 899px) {
+  /* line 893, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/sections/_main.scss */
+  .form-group:last-of-type {
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 599px) {
+  /* line 893, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/sections/_main.scss */
+  .form-group:last-of-type {
+    margin-bottom: 20px;
+  }
+}
+
+/* line 907, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/sections/_main.scss */
+.form-group-title {
+  margin-bottom: 15px;
+  font-size: 20px;
+  font-weight: 700;
+  /* Mobile XS */
+}
+
+@media (max-width: 599px) {
+  /* line 907, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/sections/_main.scss */
+  .form-group-title {
+    margin-bottom: 10px;
+    font-size: 18px;
+  }
+}
+
+/* line 923, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/sections/_main.scss */
+.form-group-input {
+  width: 100%;
+  height: 50px;
+  padding: 0 20px;
+  background: #EEEEEE;
+  border: 1px solid #C0C0C0;
+  border-radius: 6px;
+  font-size: 18px;
+  color: #31405B;
+  line-height: 1.3;
+  /* Tablet */
+  /* Mobile */
+  /* Mobile XS */
+}
+
+@media (max-width: 1199px) {
+  /* line 923, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/sections/_main.scss */
+  .form-group-input {
+    padding: 0 28px;
+  }
+}
+
+@media (max-width: 899px) {
+  /* line 923, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/sections/_main.scss */
+  .form-group-input {
+    padding: 0 18px;
+  }
+}
+
+@media (max-width: 599px) {
+  /* line 923, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/sections/_main.scss */
+  .form-group-input {
+    padding: 0 15px;
+  }
+}
+
+/* line 952, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/sections/_main.scss */
+.form-group-input::-webkit-input-placeholder {
+  font-size: 18px;
+  color: #31405B;
+  line-height: 1.3;
+}
+.form-group-input::-moz-placeholder {
+  font-size: 18px;
+  color: #31405B;
+  line-height: 1.3;
+}
+.form-group-input:-ms-input-placeholder {
+  font-size: 18px;
+  color: #31405B;
+  line-height: 1.3;
+}
+.form-group-input::-ms-input-placeholder {
+  font-size: 18px;
+  color: #31405B;
+  line-height: 1.3;
+}
+.form-group-input::placeholder {
+  font-size: 18px;
+  color: #31405B;
+  line-height: 1.3;
+}
+
+/* line 958, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/sections/_main.scss */
+.form-group-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-column-gap: 10px;
+     -moz-column-gap: 10px;
+          column-gap: 10px;
+  margin-bottom: 10px;
+  /* Tablet */
+  /* Mobile XS */
+}
+
+@media (max-width: 1199px) {
+  /* line 958, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/sections/_main.scss */
+  .form-group-row {
+    -webkit-column-gap: 9px;
+       -moz-column-gap: 9px;
+            column-gap: 9px;
+  }
+}
+
+@media (max-width: 599px) {
+  /* line 958, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/sections/_main.scss */
+  .form-group-row {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    row-gap: 10px;
+  }
+}
+
+/* line 977, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/sections/_main.scss */
+.form-group-row:last-child {
+  margin-bottom: 0;
+}
+
+/* line 981, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/sections/_main.scss */
+.radio-row {
+  display: block;
+  margin-bottom: 21px;
+  /* Mobile XS */
+}
+
+@media (max-width: 599px) {
+  /* line 981, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/sections/_main.scss */
+  .radio-row {
+    margin-bottom: 10px;
+  }
+}
+
+/* line 991, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/sections/_main.scss */
+.radio-row:last-child {
+  margin-bottom: 0;
+}
+
+/* line 995, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/sections/_main.scss */
+.custom-radio {
+  position: relative;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin-right: 15px;
+  vertical-align: bottom;
+  background: #EEEEEE;
+  border: 1px solid #C0C0C0;
+  border-radius: 50%;
+}
+
+/* line 1008, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/sections/_main.scss */
+.custom-radio::before {
+  display: block;
+  position: absolute;
+  content: '';
+  width: 12px;
+  height: 12px;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%) scale(0);
+          transform: translate(-50%, -50%) scale(0);
+  background: #2AB698;
+  border-radius: 50%;
+  -webkit-transition: 0.2s ease-in;
+  transition: 0.2s ease-in;
+}
+
+/* line 1024, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/sections/_main.scss */
+.real-radio:checked + .custom-radio::before {
+  display: block;
+  -webkit-transform: translate(-50%, -50%) scale(1);
+          transform: translate(-50%, -50%) scale(1);
+}
+
+/* line 1030, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/sections/_main.scss */
+.real-radio:focus + .custom-radio {
+  -webkit-box-shadow: 0 0 0 2px #333;
+          box-shadow: 0 0 0 2px #333;
+}
+
+/* line 1034, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/sections/_main.scss */
+.real-radio {
+  width: 0;
+  height: 0;
+  display: none;
+}
+
+/* line 1040, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/sections/_main.scss */
+.chech-row {
+  display: block;
+  margin-bottom: 17px;
+  /* Mobile XS */
+}
+
+@media (max-width: 599px) {
+  /* line 1040, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/sections/_main.scss */
+  .chech-row {
+    margin-bottom: 20px;
+  }
+}
+
+/* line 1050, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/sections/_main.scss */
+.custom-check {
+  position: relative;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin-right: 15px;
+  vertical-align: bottom;
+  background: #EEEEEE;
+  border: 1px solid #C0C0C0;
+}
+
+/* line 1062, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/sections/_main.scss */
+.custom-check::before {
+  display: block;
+  position: absolute;
+  content: '';
+  width: 17px;
+  height: 17px;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%) scale(0);
+          transform: translate(-50%, -50%) scale(0);
+  background-image: url(./../img/icons/check.svg);
+  -webkit-transition: 0.2s ease-in;
+  transition: 0.2s ease-in;
+}
+
+/* line 1077, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/sections/_main.scss */
+.real-check:checked + .custom-check::before {
+  display: block;
+  -webkit-transform: translate(-50%, -50%) scale(1);
+          transform: translate(-50%, -50%) scale(1);
+}
+
+/* line 1083, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/sections/_main.scss */
+.real-check:focus + .custom-check {
+  -webkit-box-shadow: 0 0 0 2px #333;
+          box-shadow: 0 0 0 2px #333;
+}
+
+/* line 1087, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/sections/_main.scss */
+.real-check {
+  width: 0;
+  height: 0;
+  display: none;
+}
+
+/* 404 page */
+/* line 1095, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/sections/_main.scss */
+.none-page-link {
+  color: #138ECE;
+  text-decoration: underline;
+}
+
+/* line 1100, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/sections/_main.scss */
+.none-page-link:hover {
+  color: #E04E4E;
+}
+
+/* line 1, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/sections/_footer.scss */
+.footer {
+  padding: 71px 0 94px;
+  background-color: #265847;
+  color: #fff;
+  /* Tablet */
+  /* Mobile */
+}
+
+@media (max-width: 1199px) {
+  /* line 1, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/sections/_footer.scss */
+  .footer {
+    padding: 50px 0;
+  }
+}
+
+@media (max-width: 899px) {
+  /* line 1, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/sections/_footer.scss */
+  .footer {
+    padding: 40px 0;
+  }
+}
+
+/* line 19, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/sections/_footer.scss */
+.footer-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  /* Mobile */
+  /* Mobile XS */
+}
+
+@media (max-width: 899px) {
+  /* line 19, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/sections/_footer.scss */
+  .footer-row {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+}
+
+@media (max-width: 599px) {
+  /* line 19, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/sections/_footer.scss */
+  .footer-row {
+    text-align: center;
+  }
+}
+
+/* line 34, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/sections/_footer.scss */
+.footer-copyright {
+  width: 270px;
+  /* Tablet */
+  /* Mobile */
+}
+
+@media (max-width: 1199px) {
+  /* line 34, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/sections/_footer.scss */
+  .footer-copyright {
+    width: 195px;
+  }
+}
+
+@media (max-width: 899px) {
+  /* line 34, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/sections/_footer.scss */
+  .footer-copyright {
+    width: 100%;
+  }
+}
+
+/* line 48, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/sections/_footer.scss */
+.footer-logo {
+  margin-bottom: 26px;
+  line-height: 1.3;
+  /* Tablet */
+  /* Mobile XS */
+}
+
+@media (max-width: 1199px) {
+  /* line 48, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/sections/_footer.scss */
+  .footer-logo {
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 599px) {
+  /* line 48, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/sections/_footer.scss */
+  .footer-logo {
+    margin-bottom: 10px;
+  }
+}
+
+/* line 63, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/sections/_footer.scss */
+.footer .logo {
+  /* Tablet */
+}
+
+@media (max-width: 1199px) {
+  /* line 63, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/sections/_footer.scss */
+  .footer .logo {
+    font-size: 30px;
+  }
+}
+
+/* line 70, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/sections/_footer.scss */
+.footer-copyright p {
+  font-size: 16px;
+  line-height: 1.6;
+  /* Tablet */
+}
+
+@media (max-width: 1199px) {
+  /* line 70, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/sections/_footer.scss */
+  .footer-copyright p {
+    font-size: 14px;
+  }
+}
+
+/* line 80, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/sections/_footer.scss */
+.footer-widget {
+  /* Mobile XS */
+}
+
+@media (max-width: 599px) {
+  /* line 80, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/sections/_footer.scss */
+  .footer-widget {
+    margin-bottom: 40px;
+  }
+}
+
+/* line 87, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/sections/_footer.scss */
+.footer-widget:last-child {
+  /* Mobile XS */
+}
+
+@media (max-width: 599px) {
+  /* line 87, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/sections/_footer.scss */
+  .footer-widget:last-child {
+    margin-bottom: 0;
+  }
+}
+
+/* line 94, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/sections/_footer.scss */
+.footer-widgets-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 10px;
+  /* Mobile */
+  /* Mobile XS */
+}
+
+@media (max-width: 899px) {
+  /* line 94, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/sections/_footer.scss */
+  .footer-widgets-wrapper {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin-bottom: 49px;
+    padding-top: 0;
+  }
+}
+
+@media (max-width: 599px) {
+  /* line 94, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/sections/_footer.scss */
+  .footer-widgets-wrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-bottom: 40px;
+  }
+}
+
+/* line 117, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/sections/_footer.scss */
+.footer-widget + .footer-widget {
+  margin-left: 30px;
+  /* Mobile */
+}
+
+@media (max-width: 899px) {
+  /* line 117, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/sections/_footer.scss */
+  .footer-widget + .footer-widget {
+    margin-left: 0;
+  }
+}
+
+/* line 126, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/sections/_footer.scss */
+.footer-widget-info {
+  width: 170px;
+  /* Tablet */
+}
+
+@media (max-width: 1199px) {
+  /* line 126, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/sections/_footer.scss */
+  .footer-widget-info {
+    width: 195px;
+  }
+}
+
+/* line 135, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/sections/_footer.scss */
+.footer-widget-services, .footer-widget-contacts {
+  width: 270px;
+}
+
+/* line 139, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/sections/_footer.scss */
+.footer-widget-info, .footer-widget-services, .footer-widget-contacts {
+  /* Mobile XS */
+}
+
+@media (max-width: 599px) {
+  /* line 139, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/sections/_footer.scss */
+  .footer-widget-info, .footer-widget-services, .footer-widget-contacts {
+    width: 290px;
+  }
+}
+
+/* line 146, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/sections/_footer.scss */
+.footer-widget-services {
+  /* Tablet */
+  /* Mobile XS */
+}
+
+@media (max-width: 1199px) {
+  /* line 146, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/sections/_footer.scss */
+  .footer-widget-services {
+    display: none;
+  }
+}
+
+@media (max-width: 599px) {
+  /* line 146, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/sections/_footer.scss */
+  .footer-widget-services {
+    display: block;
+  }
+}
+
+/* line 158, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/sections/_footer.scss */
+.footer-widget-title {
+  margin-bottom: 30px;
+  font-size: 24px;
+  line-height: 1.3;
+  /* Tablet */
+  /* Mobile XS */
+}
+
+@media (max-width: 1199px) {
+  /* line 158, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/sections/_footer.scss */
+  .footer-widget-title {
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 599px) {
+  /* line 158, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/sections/_footer.scss */
+  .footer-widget-title {
+    margin-bottom: 10px;
+    font-size: 20px;
+  }
+}
+
+/* line 177, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/sections/_footer.scss */
+.footer-widget-list {
+  font-size: 18px;
+  line-height: 1.3;
+  /* Mobile XS */
+}
+
+@media (max-width: 599px) {
+  /* line 177, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/sections/_footer.scss */
+  .footer-widget-list {
+    font-size: 16px;
+  }
+}
+
+/* line 187, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/sections/_footer.scss */
+.footer-widget-list li {
+  margin-bottom: 15px;
+  /* Mobile XS */
+}
+
+@media (max-width: 599px) {
+  /* line 187, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/sections/_footer.scss */
+  .footer-widget-list li {
+    margin-bottom: 10px;
+  }
+}
+
+/* line 196, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/sections/_footer.scss */
+.footer-widget-list li:last-child {
+  margin-bottom: 0;
+}
+
+/* line 200, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/sections/_footer.scss */
+.footer-widget-contacts li {
+  /* Mobile XS */
+}
+
+@media (max-width: 599px) {
+  /* line 200, ../../../../OneDrive/Рабочий стол/Проги и т.п/IT/Тренировка/forest-travel/sass/sections/_footer.scss */
+  .footer-widget-contacts li {
+    margin-bottom: 15px;
+  }
+}
+/*# sourceMappingURL=main.css.map */
